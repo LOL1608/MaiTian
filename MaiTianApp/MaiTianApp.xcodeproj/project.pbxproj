@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0FFA8A94A41A49A5E2DD4E2 /* libPods-MaiTianApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E461BC93DE2BB30C2E970D86 /* libPods-MaiTianApp.a */; };
+		C86974891DF989B4009247C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974881DF989B4009247C2 /* main.m */; };
+		C869748C1DF989B4009247C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C869748B1DF989B4009247C2 /* AppDelegate.m */; };
+		C869748F1DF989B4009247C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C869748E1DF989B4009247C2 /* ViewController.m */; };
+		C86974921DF989B4009247C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86974901DF989B4009247C2 /* Main.storyboard */; };
+		C86974941DF989B5009247C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86974931DF989B5009247C2 /* Assets.xcassets */; };
+		C86974971DF989B5009247C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86974951DF989B5009247C2 /* LaunchScreen.storyboard */; };
+		C86974AE1DF98D0C009247C2 /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974A91DF98D0C009247C2 /* NSObject+Parse.m */; };
+		C86974AF1DF98D0C009247C2 /* NSString+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974AB1DF98D0C009247C2 /* NSString+YX.m */; };
+		C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974AD1DF98D0C009247C2 /* UIView+HUD.m */; };
+		C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974B21DF98D14009247C2 /* BaseNetworking.m */; };
+		C86974B61DF98D14009247C2 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974B41DF98D14009247C2 /* NetManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64D6C26AED320AB0E1D96FAA /* Pods-MaiTianApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiTianApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaiTianApp/Pods-MaiTianApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A33E73FAFEC5BE468BDE3E80 /* Pods-MaiTianApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiTianApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaiTianApp/Pods-MaiTianApp.release.xcconfig"; sourceTree = "<group>"; };
+		C86974841DF989B4009247C2 /* MaiTianApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaiTianApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86974881DF989B4009247C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C869748A1DF989B4009247C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C869748B1DF989B4009247C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C869748D1DF989B4009247C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		C869748E1DF989B4009247C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		C86974911DF989B4009247C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C86974931DF989B5009247C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		C86974961DF989B5009247C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C86974981DF989B5009247C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86974A71DF98CBD009247C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C86974A81DF98D0C009247C2 /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		C86974A91DF98D0C009247C2 /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		C86974AA1DF98D0C009247C2 /* NSString+YX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YX.h"; sourceTree = "<group>"; };
+		C86974AB1DF98D0C009247C2 /* NSString+YX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YX.m"; sourceTree = "<group>"; };
+		C86974AC1DF98D0C009247C2 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		C86974AD1DF98D0C009247C2 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		C86974B11DF98D14009247C2 /* BaseNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworking.h; sourceTree = "<group>"; };
+		C86974B21DF98D14009247C2 /* BaseNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworking.m; sourceTree = "<group>"; };
+		C86974B31DF98D14009247C2 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		C86974B41DF98D14009247C2 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		E461BC93DE2BB30C2E970D86 /* libPods-MaiTianApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaiTianApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C86974811DF989B4009247C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FFA8A94A41A49A5E2DD4E2 /* libPods-MaiTianApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33131500E8FAA4D58C392C98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64D6C26AED320AB0E1D96FAA /* Pods-MaiTianApp.debug.xcconfig */,
+				A33E73FAFEC5BE468BDE3E80 /* Pods-MaiTianApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C869747B1DF989B4009247C2 = {
+			isa = PBXGroup;
+			children = (
+				C86974861DF989B4009247C2 /* MaiTianApp */,
+				C86974851DF989B4009247C2 /* Products */,
+				33131500E8FAA4D58C392C98 /* Pods */,
+				CD6597580E54ED93646762B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C86974851DF989B4009247C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C86974841DF989B4009247C2 /* MaiTianApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C86974861DF989B4009247C2 /* MaiTianApp */ = {
+			isa = PBXGroup;
+			children = (
+				C869748A1DF989B4009247C2 /* AppDelegate.h */,
+				C869748B1DF989B4009247C2 /* AppDelegate.m */,
+				C869749E1DF98C5A009247C2 /* Category */,
+				C869749F1DF98C5A009247C2 /* Define */,
+				C86974A01DF98C5A009247C2 /* Model */,
+				C86974A11DF98C5A009247C2 /* NetManager */,
+				C86974A21DF98C5A009247C2 /* Resource */,
+				C86974A31DF98C5A009247C2 /* Vendor */,
+				C86974A41DF98C5A009247C2 /* View */,
+				C86974A51DF98C5A009247C2 /* ViewController */,
+				C86974A61DF98C5A009247C2 /* ViewModel */,
+				C86974871DF989B4009247C2 /* Supporting Files */,
+			);
+			path = MaiTianApp;
+			sourceTree = "<group>";
+		};
+		C86974871DF989B4009247C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C86974981DF989B5009247C2 /* Info.plist */,
+				C86974881DF989B4009247C2 /* main.m */,
+				C86974A71DF98CBD009247C2 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C869749E1DF98C5A009247C2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C86974A81DF98D0C009247C2 /* NSObject+Parse.h */,
+				C86974A91DF98D0C009247C2 /* NSObject+Parse.m */,
+				C86974AA1DF98D0C009247C2 /* NSString+YX.h */,
+				C86974AB1DF98D0C009247C2 /* NSString+YX.m */,
+				C86974AC1DF98D0C009247C2 /* UIView+HUD.h */,
+				C86974AD1DF98D0C009247C2 /* UIView+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C869749F1DF98C5A009247C2 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		C86974A01DF98C5A009247C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C86974A11DF98C5A009247C2 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				C86974B11DF98D14009247C2 /* BaseNetworking.h */,
+				C86974B21DF98D14009247C2 /* BaseNetworking.m */,
+				C86974B31DF98D14009247C2 /* NetManager.h */,
+				C86974B41DF98D14009247C2 /* NetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		C86974A21DF98C5A009247C2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C86974901DF989B4009247C2 /* Main.storyboard */,
+				C86974931DF989B5009247C2 /* Assets.xcassets */,
+				C86974951DF989B5009247C2 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C86974A31DF98C5A009247C2 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C86974A41DF98C5A009247C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C86974A51DF98C5A009247C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C86974A61DF98C5A009247C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C869748D1DF989B4009247C2 /* ViewController.h */,
+				C869748E1DF989B4009247C2 /* ViewController.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD6597580E54ED93646762B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E461BC93DE2BB30C2E970D86 /* libPods-MaiTianApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C86974831DF989B4009247C2 /* MaiTianApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C869749B1DF989B5009247C2 /* Build configuration list for PBXNativeTarget "MaiTianApp" */;
+			buildPhases = (
+				466A41DC96301DDC44992261 /* [CP] Check Pods Manifest.lock */,
+				C86974801DF989B4009247C2 /* Sources */,
+				C86974811DF989B4009247C2 /* Frameworks */,
+				C86974821DF989B4009247C2 /* Resources */,
+				3542E0A12BABC711D8DECC6D /* [CP] Embed Pods Frameworks */,
+				6C398C5B22FF2F4D195085E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaiTianApp;
+			productName = MaiTianApp;
+			productReference = C86974841DF989B4009247C2 /* MaiTianApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C869747C1DF989B4009247C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MaiTianApp;
+				TargetAttributes = {
+					C86974831DF989B4009247C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C869747F1DF989B4009247C2 /* Build configuration list for PBXProject "MaiTianApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C869747B1DF989B4009247C2;
+			productRefGroup = C86974851DF989B4009247C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C86974831DF989B4009247C2 /* MaiTianApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C86974821DF989B4009247C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86974971DF989B5009247C2 /* LaunchScreen.storyboard in Resources */,
+				C86974941DF989B5009247C2 /* Assets.xcassets in Resources */,
+				C86974921DF989B4009247C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3542E0A12BABC711D8DECC6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaiTianApp/Pods-MaiTianApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		466A41DC96301DDC44992261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C398C5B22FF2F4D195085E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaiTianApp/Pods-MaiTianApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C86974801DF989B4009247C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */,
+				C86974B61DF98D14009247C2 /* NetManager.m in Sources */,
+				C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */,
+				C869748F1DF989B4009247C2 /* ViewController.m in Sources */,
+				C86974AE1DF98D0C009247C2 /* NSObject+Parse.m in Sources */,
+				C86974AF1DF98D0C009247C2 /* NSString+YX.m in Sources */,
+				C869748C1DF989B4009247C2 /* AppDelegate.m in Sources */,
+				C86974891DF989B4009247C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C86974901DF989B4009247C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86974911DF989B4009247C2 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C86974951DF989B5009247C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86974961DF989B5009247C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C86974991DF989B5009247C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C869749A1DF989B5009247C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C869749C1DF989B5009247C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D6C26AED320AB0E1D96FAA /* Pods-MaiTianApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = MaiTianApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maitian.com.MaiTianApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C869749D1DF989B5009247C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33E73FAFEC5BE468BDE3E80 /* Pods-MaiTianApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = MaiTianApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maitian.com.MaiTianApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C869747F1DF989B4009247C2 /* Build configuration list for PBXProject "MaiTianApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86974991DF989B5009247C2 /* Debug */,
+				C869749A1DF989B5009247C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C869749B1DF989B5009247C2 /* Build configuration list for PBXNativeTarget "MaiTianApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C869749C1DF989B5009247C2 /* Debug */,
+				C869749D1DF989B5009247C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C869747C1DF989B4009247C2 /* Project object */;
+}
