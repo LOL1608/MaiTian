@@ -19,6 +19,10 @@
 		C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974AD1DF98D0C009247C2 /* UIView+HUD.m */; };
 		C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974B21DF98D14009247C2 /* BaseNetworking.m */; };
 		C86974B61DF98D14009247C2 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974B41DF98D14009247C2 /* NetManager.m */; };
+		C8CA79551DFEC75F003E1153 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA794E1DFEC75F003E1153 /* TabBarController.m */; };
+		C8CA79561DFEC75F003E1153 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA79501DFEC75F003E1153 /* HomePageViewController.m */; };
+		C8CA79571DFEC75F003E1153 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA79521DFEC75F003E1153 /* LiveViewController.m */; };
+		C8CA79581DFEC75F003E1153 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA79541DFEC75F003E1153 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +32,8 @@
 		C86974881DF989B4009247C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C869748A1DF989B4009247C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C869748B1DF989B4009247C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C869748D1DF989B4009247C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		C869748E1DF989B4009247C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		C869748D1DF989B4009247C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MaiTianApp/ViewController.h; sourceTree = SOURCE_ROOT; };
+		C869748E1DF989B4009247C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MaiTianApp/ViewController.m; sourceTree = SOURCE_ROOT; };
 		C86974911DF989B4009247C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C86974931DF989B5009247C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		C86974961DF989B5009247C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 		C86974B21DF98D14009247C2 /* BaseNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworking.m; sourceTree = "<group>"; };
 		C86974B31DF98D14009247C2 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
 		C86974B41DF98D14009247C2 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		C8CA794D1DFEC75F003E1153 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ../ViewModel/TabBarController.h; sourceTree = "<group>"; };
+		C8CA794E1DFEC75F003E1153 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = ../ViewModel/TabBarController.m; sourceTree = "<group>"; };
+		C8CA794F1DFEC75F003E1153 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = ../ViewModel/HomePageViewController.h; sourceTree = "<group>"; };
+		C8CA79501DFEC75F003E1153 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = ../ViewModel/HomePageViewController.m; sourceTree = "<group>"; };
+		C8CA79511DFEC75F003E1153 /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveViewController.h; path = ../ViewModel/LiveViewController.h; sourceTree = "<group>"; };
+		C8CA79521DFEC75F003E1153 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiveViewController.m; path = ../ViewModel/LiveViewController.m; sourceTree = "<group>"; };
+		C8CA79531DFEC75F003E1153 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../ViewModel/MyViewController.h; sourceTree = "<group>"; };
+		C8CA79541DFEC75F003E1153 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../ViewModel/MyViewController.m; sourceTree = "<group>"; };
 		E461BC93DE2BB30C2E970D86 /* libPods-MaiTianApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaiTianApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,6 +193,16 @@
 		C86974A51DF98C5A009247C2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C869748D1DF989B4009247C2 /* ViewController.h */,
+				C869748E1DF989B4009247C2 /* ViewController.m */,
+				C8CA794D1DFEC75F003E1153 /* TabBarController.h */,
+				C8CA794E1DFEC75F003E1153 /* TabBarController.m */,
+				C8CA794F1DFEC75F003E1153 /* HomePageViewController.h */,
+				C8CA79501DFEC75F003E1153 /* HomePageViewController.m */,
+				C8CA79511DFEC75F003E1153 /* LiveViewController.h */,
+				C8CA79521DFEC75F003E1153 /* LiveViewController.m */,
+				C8CA79531DFEC75F003E1153 /* MyViewController.h */,
+				C8CA79541DFEC75F003E1153 /* MyViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -188,8 +210,6 @@
 		C86974A61DF98C5A009247C2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				C869748D1DF989B4009247C2 /* ViewController.h */,
-				C869748E1DF989B4009247C2 /* ViewController.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -326,8 +346,12 @@
 			files = (
 				C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */,
 				C86974B61DF98D14009247C2 /* NetManager.m in Sources */,
+				C8CA79561DFEC75F003E1153 /* HomePageViewController.m in Sources */,
 				C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */,
+				C8CA79551DFEC75F003E1153 /* TabBarController.m in Sources */,
 				C869748F1DF989B4009247C2 /* ViewController.m in Sources */,
+				C8CA79581DFEC75F003E1153 /* MyViewController.m in Sources */,
+				C8CA79571DFEC75F003E1153 /* LiveViewController.m in Sources */,
 				C86974AE1DF98D0C009247C2 /* NSObject+Parse.m in Sources */,
 				C86974AF1DF98D0C009247C2 /* NSString+YX.m in Sources */,
 				C869748C1DF989B4009247C2 /* AppDelegate.m in Sources */,
