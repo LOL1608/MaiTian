@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B159D061E02BE38009141CB /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D051E02BE38009141CB /* UIColor+Extension.m */; };
+		7B159D0A1E02C084009141CB /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D091E02C084009141CB /* PageViewController.m */; };
+		7B159D0D1E02C192009141CB /* ZuiXinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D0C1E02C192009141CB /* ZuiXinViewController.m */; };
+		7B159D101E02CC6B009141CB /* TuiJianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D0F1E02CC6B009141CB /* TuiJianModel.m */; };
+		7BC0501C1E001B6E00958E8A /* TuiJianCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0501B1E001B6E00958E8A /* TuiJianCell.m */; };
+		7BC050201E001BA500958E8A /* TuiJianLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0501F1E001BA500958E8A /* TuiJianLayout.m */; };
 		B0FFA8A94A41A49A5E2DD4E2 /* libPods-MaiTianApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E461BC93DE2BB30C2E970D86 /* libPods-MaiTianApp.a */; };
 		C86974891DF989B4009247C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974881DF989B4009247C2 /* main.m */; };
 		C869748C1DF989B4009247C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C869748B1DF989B4009247C2 /* AppDelegate.m */; };
@@ -27,6 +33,19 @@
 
 /* Begin PBXFileReference section */
 		64D6C26AED320AB0E1D96FAA /* Pods-MaiTianApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiTianApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaiTianApp/Pods-MaiTianApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7B159D041E02BE38009141CB /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		7B159D051E02BE38009141CB /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		7B159D081E02C084009141CB /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		7B159D091E02C084009141CB /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		7B159D0B1E02C192009141CB /* ZuiXinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZuiXinViewController.h; sourceTree = "<group>"; };
+		7B159D0C1E02C192009141CB /* ZuiXinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZuiXinViewController.m; sourceTree = "<group>"; };
+		7B159D0E1E02CC6B009141CB /* TuiJianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianModel.h; sourceTree = "<group>"; };
+		7B159D0F1E02CC6B009141CB /* TuiJianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianModel.m; sourceTree = "<group>"; };
+		7B9767D01E00F626007D285E /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		7BC0501A1E001B6E00958E8A /* TuiJianCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianCell.h; sourceTree = "<group>"; };
+		7BC0501B1E001B6E00958E8A /* TuiJianCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianCell.m; sourceTree = "<group>"; };
+		7BC0501E1E001BA500958E8A /* TuiJianLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianLayout.h; sourceTree = "<group>"; };
+		7BC0501F1E001BA500958E8A /* TuiJianLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianLayout.m; sourceTree = "<group>"; };
 		A33E73FAFEC5BE468BDE3E80 /* Pods-MaiTianApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiTianApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaiTianApp/Pods-MaiTianApp.release.xcconfig"; sourceTree = "<group>"; };
 		C86974841DF989B4009247C2 /* MaiTianApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaiTianApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86974881DF989B4009247C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +100,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7B159D071E02C055009141CB /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				7B159D081E02C084009141CB /* PageViewController.h */,
+				7B159D091E02C084009141CB /* PageViewController.m */,
+				C8CA794F1DFEC75F003E1153 /* HomePageViewController.h */,
+				C8CA79501DFEC75F003E1153 /* HomePageViewController.m */,
+				7B159D0B1E02C192009141CB /* ZuiXinViewController.h */,
+				7B159D0C1E02C192009141CB /* ZuiXinViewController.m */,
+			);
+			name = WMPageController;
+			sourceTree = "<group>";
+		};
+		7BC050191E001ABF00958E8A /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				7BC0501A1E001B6E00958E8A /* TuiJianCell.h */,
+				7BC0501B1E001B6E00958E8A /* TuiJianCell.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		7BC0501D1E001B8E00958E8A /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				7BC0501E1E001BA500958E8A /* TuiJianLayout.h */,
+				7BC0501F1E001BA500958E8A /* TuiJianLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		C869747B1DF989B4009247C2 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +181,8 @@
 		C869749E1DF98C5A009247C2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7B159D041E02BE38009141CB /* UIColor+Extension.h */,
+				7B159D051E02BE38009141CB /* UIColor+Extension.m */,
 				C86974A81DF98D0C009247C2 /* NSObject+Parse.h */,
 				C86974A91DF98D0C009247C2 /* NSObject+Parse.m */,
 				C86974AA1DF98D0C009247C2 /* NSString+YX.h */,
@@ -144,6 +196,7 @@
 		C869749F1DF98C5A009247C2 /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				7B9767D01E00F626007D285E /* Constant.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -151,6 +204,8 @@
 		C86974A01DF98C5A009247C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B159D0E1E02CC6B009141CB /* TuiJianModel.h */,
+				7B159D0F1E02CC6B009141CB /* TuiJianModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +241,8 @@
 		C86974A41DF98C5A009247C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7BC0501D1E001B8E00958E8A /* Layout */,
+				7BC050191E001ABF00958E8A /* 首页 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,12 +250,11 @@
 		C86974A51DF98C5A009247C2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7B159D071E02C055009141CB /* WMPageController */,
 				C869748D1DF989B4009247C2 /* ViewController.h */,
 				C869748E1DF989B4009247C2 /* ViewController.m */,
 				C8CA794D1DFEC75F003E1153 /* TabBarController.h */,
 				C8CA794E1DFEC75F003E1153 /* TabBarController.m */,
-				C8CA794F1DFEC75F003E1153 /* HomePageViewController.h */,
-				C8CA79501DFEC75F003E1153 /* HomePageViewController.m */,
 				C8CA79511DFEC75F003E1153 /* LiveViewController.h */,
 				C8CA79521DFEC75F003E1153 /* LiveViewController.m */,
 				C8CA79531DFEC75F003E1153 /* MyViewController.h */,
@@ -346,9 +402,15 @@
 			files = (
 				C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */,
 				C86974B61DF98D14009247C2 /* NetManager.m in Sources */,
+				7B159D101E02CC6B009141CB /* TuiJianModel.m in Sources */,
 				C8CA79561DFEC75F003E1153 /* HomePageViewController.m in Sources */,
+				7B159D061E02BE38009141CB /* UIColor+Extension.m in Sources */,
+				7BC0501C1E001B6E00958E8A /* TuiJianCell.m in Sources */,
 				C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */,
 				C8CA79551DFEC75F003E1153 /* TabBarController.m in Sources */,
+				7B159D0A1E02C084009141CB /* PageViewController.m in Sources */,
+				7BC050201E001BA500958E8A /* TuiJianLayout.m in Sources */,
+				7B159D0D1E02C192009141CB /* ZuiXinViewController.m in Sources */,
 				C869748F1DF989B4009247C2 /* ViewController.m in Sources */,
 				C8CA79581DFEC75F003E1153 /* MyViewController.m in Sources */,
 				C8CA79571DFEC75F003E1153 /* LiveViewController.m in Sources */,

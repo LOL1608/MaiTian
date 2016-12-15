@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "TabBarController.h"
+
+#import "NetManager.h"
 @interface AppDelegate ()
 
 @end
@@ -19,6 +21,11 @@
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [_window makeKeyAndVisible];
     _window.rootViewController = [TabBarController new];
+    
+    [NetManager getPage:0 completionHandler:^(TuiJianModel *model, NSError *error) {
+        NSLog(@"");
+    }];
+    
     return YES;
 }
 

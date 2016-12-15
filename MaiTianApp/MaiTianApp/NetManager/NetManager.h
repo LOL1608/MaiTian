@@ -7,7 +7,9 @@
 //
 
 #import "BaseNetworking.h"
-
+#import "TuiJianModel.h"
 @interface NetManager : BaseNetworking
+
++ getPage:(NSInteger)page completionHandler:(void(^)(TuiJianModel *model, NSError *error))completionHandler;
 
 @end

@@ -7,24 +7,31 @@
 //
 
 #import "TabBarController.h"
-#import "HomePageViewController.h"
+#import "PageViewController.h"
 #import "LiveViewController.h"
 #import "MyViewController.h"
 @interface TabBarController ()
-@property (nonatomic) HomePageViewController *homeVC;
+@property (nonatomic) PageViewController *pageVC;
 @property (nonatomic) LiveViewController *liveVC;
 @property (nonatomic) MyViewController *myVC;
 @end
 
 @implementation TabBarController
-- (HomePageViewController *)homeVC{
-    if (!_homeVC) {
-        _homeVC = [HomePageViewController new];
-        _homeVC.tabBarItem.title = @"主页";
-        _homeVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarHome_49x36_"];
-        _homeVC.tabBarItem.selectedImage = [UIImage imageNamed:@"MPTTabarHomeSelected_49x36_"];
+-(PageViewController *)pageVC {
+    if (!_pageVC) {
+        _pageVC = [[PageViewController alloc] init];
+        //显示在导航栏上
+        _pageVC.showOnNavigationBar = YES;
+        //设置菜单背景色
+        _pageVC.menuBGColor = [UIColor clearColor];
+        //选中时的样式
+        _pageVC.menuViewStyle = WMMenuViewStyleLine;
+        //字体大小颜色....
+        _pageVC.tabBarItem.title = @"主页";
+        _pageVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarHome_49x36_"];
+        _pageVC.tabBarItem.selectedImage = [UIImage imageNamed:@"MPTTabarHomeSelected_49x36_"];
     }
-    return _homeVC;
+    return _pageVC;
 }
 
 - (LiveViewController *)liveVC{
@@ -47,7 +54,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UINavigationController *navi0 = [[UINavigationController alloc] initWithRootViewController:self.homeVC];
+    UINavigationController *navi0 = [[UINavigationController alloc] initWithRootViewController:self.pageVC];
     UINavigationController *navi1 = [[UINavigationController alloc] initWithRootViewController:self.liveVC];
     self.viewControllers = @[navi0, navi1, self.myVC];
     //设置了全局的所有tabbarItem的文字样式. 选中时的
