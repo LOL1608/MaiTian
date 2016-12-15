@@ -25,10 +25,11 @@
 		C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974AD1DF98D0C009247C2 /* UIView+HUD.m */; };
 		C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974B21DF98D14009247C2 /* BaseNetworking.m */; };
 		C86974B61DF98D14009247C2 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C86974B41DF98D14009247C2 /* NetManager.m */; };
+		C8AD76771E02D39800EB22D3 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD76761E02D39800EB22D3 /* MyCell.m */; };
+		C8AD767A1E02D40B00EB22D3 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD76791E02D40B00EB22D3 /* MyViewController.m */; };
 		C8CA79551DFEC75F003E1153 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA794E1DFEC75F003E1153 /* TabBarController.m */; };
 		C8CA79561DFEC75F003E1153 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA79501DFEC75F003E1153 /* HomePageViewController.m */; };
 		C8CA79571DFEC75F003E1153 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA79521DFEC75F003E1153 /* LiveViewController.m */; };
-		C8CA79581DFEC75F003E1153 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CA79541DFEC75F003E1153 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,14 +69,16 @@
 		C86974B21DF98D14009247C2 /* BaseNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworking.m; sourceTree = "<group>"; };
 		C86974B31DF98D14009247C2 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
 		C86974B41DF98D14009247C2 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		C8AD76751E02D39800EB22D3 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		C8AD76761E02D39800EB22D3 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		C8AD76781E02D40B00EB22D3 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		C8AD76791E02D40B00EB22D3 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		C8CA794D1DFEC75F003E1153 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ../ViewModel/TabBarController.h; sourceTree = "<group>"; };
 		C8CA794E1DFEC75F003E1153 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = ../ViewModel/TabBarController.m; sourceTree = "<group>"; };
 		C8CA794F1DFEC75F003E1153 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = ../ViewModel/HomePageViewController.h; sourceTree = "<group>"; };
 		C8CA79501DFEC75F003E1153 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = ../ViewModel/HomePageViewController.m; sourceTree = "<group>"; };
 		C8CA79511DFEC75F003E1153 /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveViewController.h; path = ../ViewModel/LiveViewController.h; sourceTree = "<group>"; };
 		C8CA79521DFEC75F003E1153 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiveViewController.m; path = ../ViewModel/LiveViewController.m; sourceTree = "<group>"; };
-		C8CA79531DFEC75F003E1153 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../ViewModel/MyViewController.h; sourceTree = "<group>"; };
-		C8CA79541DFEC75F003E1153 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../ViewModel/MyViewController.m; sourceTree = "<group>"; };
 		E461BC93DE2BB30C2E970D86 /* libPods-MaiTianApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaiTianApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -241,6 +244,7 @@
 		C86974A41DF98C5A009247C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C8AD767B1E02D42A00EB22D3 /* 我的 */,
 				7BC0501D1E001B8E00958E8A /* Layout */,
 				7BC050191E001ABF00958E8A /* 首页 */,
 			);
@@ -257,8 +261,8 @@
 				C8CA794E1DFEC75F003E1153 /* TabBarController.m */,
 				C8CA79511DFEC75F003E1153 /* LiveViewController.h */,
 				C8CA79521DFEC75F003E1153 /* LiveViewController.m */,
-				C8CA79531DFEC75F003E1153 /* MyViewController.h */,
-				C8CA79541DFEC75F003E1153 /* MyViewController.m */,
+				C8AD76781E02D40B00EB22D3 /* MyViewController.h */,
+				C8AD76791E02D40B00EB22D3 /* MyViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -268,6 +272,15 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C8AD767B1E02D42A00EB22D3 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				C8AD76751E02D39800EB22D3 /* MyCell.h */,
+				C8AD76761E02D39800EB22D3 /* MyCell.m */,
+			);
+			name = "我的";
 			sourceTree = "<group>";
 		};
 		CD6597580E54ED93646762B0 /* Frameworks */ = {
@@ -412,12 +425,13 @@
 				7BC050201E001BA500958E8A /* TuiJianLayout.m in Sources */,
 				7B159D0D1E02C192009141CB /* ZuiXinViewController.m in Sources */,
 				C869748F1DF989B4009247C2 /* ViewController.m in Sources */,
-				C8CA79581DFEC75F003E1153 /* MyViewController.m in Sources */,
 				C8CA79571DFEC75F003E1153 /* LiveViewController.m in Sources */,
 				C86974AE1DF98D0C009247C2 /* NSObject+Parse.m in Sources */,
 				C86974AF1DF98D0C009247C2 /* NSString+YX.m in Sources */,
 				C869748C1DF989B4009247C2 /* AppDelegate.m in Sources */,
+				C8AD76771E02D39800EB22D3 /* MyCell.m in Sources */,
 				C86974891DF989B4009247C2 /* main.m in Sources */,
+				C8AD767A1E02D40B00EB22D3 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
