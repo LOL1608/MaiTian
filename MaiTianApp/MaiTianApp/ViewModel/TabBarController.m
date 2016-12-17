@@ -24,9 +24,24 @@
         _pageVC.showOnNavigationBar = YES;
         //设置菜单背景色
         _pageVC.menuBGColor = [UIColor clearColor];
+        //导航栏高度
+        _pageVC.menuHeight = 85;//好像并没有什么卵用
         //选中时的样式
         _pageVC.menuViewStyle = WMMenuViewStyleLine;
-        //字体大小颜色....
+        //选中时的标题尺寸
+        _pageVC.titleSizeSelected = 30;
+        //非选中时的标题尺寸
+        _pageVC.titleSizeNormal = 20;
+        //选中时标题颜色
+        _pageVC.titleColorSelected = [UIColor blackColor];
+        //非选中时标题颜色
+        _pageVC.titleColorNormal = [UIColor colorWithRed255:161 green:161 blue:161 alpha:255];
+        //标题下方进度条颜色
+        _pageVC.progressColor = [UIColor colorWithRed255:238 green:132 blue:128 alpha:255];
+        //进度条距离导航栏底部距离
+        _pageVC.progressViewBottomSpace = 2;
+        
+        
         _pageVC.tabBarItem.title = @"主页";
         _pageVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarHome_49x36_"];
         _pageVC.tabBarItem.selectedImage = [UIImage imageNamed:@"MPTTabarHomeSelected_49x36_"];

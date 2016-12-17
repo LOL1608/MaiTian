@@ -11,7 +11,7 @@
 @implementation NetManager
 
 +(id)getPage:(NSInteger)page completionHandler:(void (^)(TuiJianModel *, NSError *))completionHandler {
-    NSString *p = @"http://www.quanmin.tv/json/categories/beauty/list%@.json";
+    NSString *p = @"http://www.quanmin.tv/json/categories/love/list%@.json";
     NSString *path = !page ? [NSString stringWithFormat:p, @""] : [NSString stringWithFormat:p, [NSString stringWithFormat:@"_%ld",page]];
  
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
