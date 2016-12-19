@@ -85,7 +85,7 @@
         }];
         _blackMaskView.layer.cornerRadius = 5;
         _blackMaskView.clipsToBounds = YES;
-        _blackMaskView.backgroundColor = [UIColor colorWithRed255:0 green:0 blue:0 alpha:100];
+        _blackMaskView.backgroundColor = [UIColor colorWithRed255:0 green:0 blue:0 alpha:150];
     }
     return _blackMaskView;
 }

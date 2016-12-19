@@ -16,6 +16,7 @@
 @end
 
 @implementation HomePageViewController
+#pragma mark - Lazy
 - (TuiJianViewModel *)tuiJianVM {
     if(_tuiJianVM == nil) {
         _tuiJianVM = [[TuiJianViewModel alloc] init];
@@ -79,6 +80,10 @@
     
     
     return cell;
+}
+
+- (void)dealloc {
+    NSLog(@"TuiJian销毁销毁销毁销毁销毁销毁销毁");
 }
 
 - (void)didReceiveMemoryWarning {

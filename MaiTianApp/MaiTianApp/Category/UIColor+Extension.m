@@ -12,7 +12,7 @@
 
 //将颜色的数值 转化成颜色类别中具体的点数位置
 +(UIColor *)colorWithRed255:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(NSInteger)alpha {
-    return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:alpha/255.0];
+    return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:alpha];
 }
 
 //美工给的 十六进制 颜色 转 十进制

@@ -22,9 +22,6 @@
     [_window makeKeyAndVisible];
     _window.rootViewController = [TabBarController new];
     
-    [NetManager getPage:0 completionHandler:^(TuiJianModel *model, NSError *error) {
-        NSLog(@"");
-    }];
     
     return YES;
 }

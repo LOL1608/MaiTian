@@ -11,6 +11,9 @@
 		7B159D0A1E02C084009141CB /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D091E02C084009141CB /* PageViewController.m */; };
 		7B159D0D1E02C192009141CB /* ZuiXinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D0C1E02C192009141CB /* ZuiXinViewController.m */; };
 		7B159D101E02CC6B009141CB /* TuiJianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B159D0F1E02CC6B009141CB /* TuiJianModel.m */; };
+		7B295E271E0804E7009F2E71 /* ZuiXinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B295E261E0804E7009F2E71 /* ZuiXinCell.m */; };
+		7B295E2A1E080CA1009F2E71 /* ZuiXinViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B295E291E080CA1009F2E71 /* ZuiXinViewModel.m */; };
+		7B295E2D1E080EDE009F2E71 /* ZuiXinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B295E2C1E080EDE009F2E71 /* ZuiXinModel.m */; };
 		7B8D4A481E05213E00CE1A01 /* TuiJianViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D4A471E05213E00CE1A01 /* TuiJianViewModel.m */; };
 		7BC0501C1E001B6E00958E8A /* TuiJianCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0501B1E001B6E00958E8A /* TuiJianCell.m */; };
 		7BC050201E001BA500958E8A /* TuiJianLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0501F1E001BA500958E8A /* TuiJianLayout.m */; };
@@ -43,6 +46,12 @@
 		7B159D0C1E02C192009141CB /* ZuiXinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZuiXinViewController.m; sourceTree = "<group>"; };
 		7B159D0E1E02CC6B009141CB /* TuiJianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianModel.h; sourceTree = "<group>"; };
 		7B159D0F1E02CC6B009141CB /* TuiJianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianModel.m; sourceTree = "<group>"; };
+		7B295E251E0804E7009F2E71 /* ZuiXinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZuiXinCell.h; sourceTree = "<group>"; };
+		7B295E261E0804E7009F2E71 /* ZuiXinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZuiXinCell.m; sourceTree = "<group>"; };
+		7B295E281E080CA1009F2E71 /* ZuiXinViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZuiXinViewModel.h; sourceTree = "<group>"; };
+		7B295E291E080CA1009F2E71 /* ZuiXinViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZuiXinViewModel.m; sourceTree = "<group>"; };
+		7B295E2B1E080EDE009F2E71 /* ZuiXinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZuiXinModel.h; sourceTree = "<group>"; };
+		7B295E2C1E080EDE009F2E71 /* ZuiXinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZuiXinModel.m; sourceTree = "<group>"; };
 		7B8D4A461E05213E00CE1A01 /* TuiJianViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianViewModel.h; sourceTree = "<group>"; };
 		7B8D4A471E05213E00CE1A01 /* TuiJianViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianViewModel.m; sourceTree = "<group>"; };
 		7B9767D01E00F626007D285E /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
@@ -124,6 +133,8 @@
 			children = (
 				7BC0501A1E001B6E00958E8A /* TuiJianCell.h */,
 				7BC0501B1E001B6E00958E8A /* TuiJianCell.m */,
+				7B295E251E0804E7009F2E71 /* ZuiXinCell.h */,
+				7B295E261E0804E7009F2E71 /* ZuiXinCell.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -212,6 +223,8 @@
 			children = (
 				7B159D0E1E02CC6B009141CB /* TuiJianModel.h */,
 				7B159D0F1E02CC6B009141CB /* TuiJianModel.m */,
+				7B295E2B1E080EDE009F2E71 /* ZuiXinModel.h */,
+				7B295E2C1E080EDE009F2E71 /* ZuiXinModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +288,8 @@
 			children = (
 				7B8D4A461E05213E00CE1A01 /* TuiJianViewModel.h */,
 				7B8D4A471E05213E00CE1A01 /* TuiJianViewModel.m */,
+				7B295E281E080CA1009F2E71 /* ZuiXinViewModel.h */,
+				7B295E291E080CA1009F2E71 /* ZuiXinViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -418,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B295E2D1E080EDE009F2E71 /* ZuiXinModel.m in Sources */,
 				C86974B01DF98D0C009247C2 /* UIView+HUD.m in Sources */,
 				C86974B61DF98D14009247C2 /* NetManager.m in Sources */,
 				7B159D101E02CC6B009141CB /* TuiJianModel.m in Sources */,
@@ -425,6 +441,7 @@
 				7B159D061E02BE38009141CB /* UIColor+Extension.m in Sources */,
 				7BC0501C1E001B6E00958E8A /* TuiJianCell.m in Sources */,
 				C86974B51DF98D14009247C2 /* BaseNetworking.m in Sources */,
+				7B295E2A1E080CA1009F2E71 /* ZuiXinViewModel.m in Sources */,
 				C8CA79551DFEC75F003E1153 /* TabBarController.m in Sources */,
 				7B159D0A1E02C084009141CB /* PageViewController.m in Sources */,
 				7BC050201E001BA500958E8A /* TuiJianLayout.m in Sources */,
@@ -433,6 +450,7 @@
 				C8CA79571DFEC75F003E1153 /* LiveViewController.m in Sources */,
 				7B8D4A481E05213E00CE1A01 /* TuiJianViewModel.m in Sources */,
 				C86974AE1DF98D0C009247C2 /* NSObject+Parse.m in Sources */,
+				7B295E271E0804E7009F2E71 /* ZuiXinCell.m in Sources */,
 				C86974AF1DF98D0C009247C2 /* NSString+YX.m in Sources */,
 				C869748C1DF989B4009247C2 /* AppDelegate.m in Sources */,
 				C8AD76771E02D39800EB22D3 /* MyCell.m in Sources */,

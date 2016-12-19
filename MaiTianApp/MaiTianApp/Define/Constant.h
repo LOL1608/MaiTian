@@ -13,6 +13,8 @@
 #define kScreenW [UIScreen mainScreen].bounds.size.width
 //推荐页cell宽高比
 #define kHDivW (818 / 658.0)
+
+#define kRGBA(r, g, b, a) [UIColor colorWithRed255:r green:g blue:b alpha:a]
 //VC背景色
 #define kVcBgColor [UIColor colorWithRed255:241 green:241 blue:241 alpha:255]
 

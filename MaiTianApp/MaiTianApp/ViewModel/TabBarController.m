@@ -21,9 +21,9 @@
     if (!_pageVC) {
         _pageVC = [[PageViewController alloc] init];
         //显示在导航栏上
-        _pageVC.showOnNavigationBar = YES;
+//        _pageVC.showOnNavigationBar = YES;
         //设置菜单背景色
-        _pageVC.menuBGColor = [UIColor clearColor];
+        _pageVC.menuBGColor = kVcBgColor;
         //导航栏高度
         _pageVC.menuHeight = 85;//好像并没有什么卵用
         //选中时的样式
@@ -35,12 +35,11 @@
         //选中时标题颜色
         _pageVC.titleColorSelected = [UIColor blackColor];
         //非选中时标题颜色
-        _pageVC.titleColorNormal = [UIColor colorWithRed255:161 green:161 blue:161 alpha:255];
+        _pageVC.titleColorNormal = kRGBA(161, 161, 161, 1);
         //标题下方进度条颜色
-        _pageVC.progressColor = [UIColor colorWithRed255:238 green:132 blue:128 alpha:255];
+        _pageVC.progressColor = kRGBA(238, 132, 128, 1);
         //进度条距离导航栏底部距离
-        _pageVC.progressViewBottomSpace = 2;
-        
+        _pageVC.progressViewBottomSpace = 20;
         
         _pageVC.tabBarItem.title = @"主页";
         _pageVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarHome_49x36_"];
@@ -69,9 +68,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UINavigationController *navi0 = [[UINavigationController alloc] initWithRootViewController:self.pageVC];
-    UINavigationController *navi1 = [[UINavigationController alloc] initWithRootViewController:self.liveVC];
-    self.viewControllers = @[navi0, navi1, self.myVC];
+    self.viewControllers = @[self.pageVC, self.liveVC, self.myVC];
     //设置了全局的所有tabbarItem的文字样式. 选中时的
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor blackColor]} forState:UIControlStateSelected];
 }

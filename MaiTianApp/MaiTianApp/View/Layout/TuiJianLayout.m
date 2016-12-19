@@ -13,7 +13,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         self.minimumLineSpacing = 15;
-        self.sectionInset = UIEdgeInsetsMake(15, 15, 15, 15);
+        self.sectionInset = UIEdgeInsetsMake(0, 15, 15, 15);
         CGFloat width = kScreenW - 15 * 2;
         CGFloat height = width * kHDivW;
         self.itemSize = CGSizeMake(width, height);

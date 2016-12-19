@@ -8,8 +8,12 @@
 
 #import "BaseNetworking.h"
 #import "TuiJianModel.h"
+#import "ZuiXinModel.h"
+
 @interface NetManager : BaseNetworking
 
-+ getPage:(NSInteger)page completionHandler:(void(^)(TuiJianModel *model, NSError *error))completionHandler;
++ getTuiJianWithPage:(NSInteger)page completionHandler:(void(^)(TuiJianModel *model, NSError *error))completionHandler;
+
++ getZuiXinWithPage:(NSInteger)page completionHandler:(void(^)(ZuiXinModel *model, NSError *error))completionHandler;
 
 @end

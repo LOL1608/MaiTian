@@ -23,7 +23,7 @@
     if (mode == RequestModelMore) {
         tmpPage = _page + 1;
     }
-    [NetManager getPage:tmpPage completionHandler:^(TuiJianModel *model, NSError *error) {
+    [NetManager getTuiJianWithPage:tmpPage completionHandler:^(TuiJianModel *model, NSError *error) {
         if (mode == RequestModelRefresh) {
             [self.dataList removeAllObjects];
             _noMoreData = NO;
